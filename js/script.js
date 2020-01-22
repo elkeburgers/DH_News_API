@@ -17,7 +17,7 @@ let board = document.getElementById('board');
 
 // // Sintaxe com arrow function
 titleClick.addEventListener('click',()=>{
-    fetch("https://newsapi.org/v2/top-headlines?country=br&apiKey=0e9ebb13f51846bab05d8297e489de4a")
+    fetch("https://newsapi.org/v2/top-headlines?country=br&apiKey=85a810afedfa4af3aef5ce6a6f8a4edb")
 .then(result=> result.json())
 .then(json=>{
         console.log(json.articles);
